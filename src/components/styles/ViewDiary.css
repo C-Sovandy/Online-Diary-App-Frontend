@@ -1,0 +1,56 @@
+/* CSS for ViewDiary Component */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .rounded-lg {
+    border-radius: 8px;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .text-gray-600 {
+    color: #6b7280;
+  }
+  
+  .text-black-600 {
+    color: #000;
+  }
+  
+  /* Add responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0.5rem;
+    }
+  
+    .text-2xl {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Increase responsiveness for smaller screens */
+  @media (max-width: 576px) {
+    .container {
+      padding: 0.25rem;
+    }
+  
+    .text-2xl {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Additional styles can be added as needed */
+  

@@ -1,0 +1,32 @@
+/* DateFilter.css */
+
+/* Container styles */
+.date-filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Input styles */
+  .date-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  /* Filter button styles */
+  .filter-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Filter button hover effect */
+  .filter-button:hover {
+    background-color: #0056b3;
+  }
+  
